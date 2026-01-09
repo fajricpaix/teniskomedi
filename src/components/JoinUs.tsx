@@ -7,11 +7,11 @@ export default function JoinUs () {
       <div className="relative">
           {/* Tennis Image Placeholder */}
           <Image 
-              src="/images/join.jpg"
-              alt="Logo"
-              className="w-full h-auto lg:h-175 aspect-square object-cover"
-              width={500}
-              height={500} />
+            src="/images/join.jpg"
+            alt="Logo"
+            className="w-full h-auto lg:h-175 aspect-square object-cover"
+            width={500}
+            height={500} />
           
           {/* Bottom Banner */}
           <div className="p-6 bg-[#CEFF05] lg:absolute lg:bottom-8 lg:left-8 lg:-right-8">
@@ -35,7 +35,7 @@ export default function JoinUs () {
           </h1>
         </div>
 
-        <div className="space-y-6 text-white leading-relaxed lg:text-lg">
+        <div className="space-y-6 text-white/70 leading-relaxed lg:text-lg">
           <p>
             Jangan jauh-jauh dong! Gabung aja sama kami di Tenis Komedi, tempat dimana 
             olahraga ketemu hiburan. Tawa dan keringat bakal keluar bareng-bareng, dijamin 

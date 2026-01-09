@@ -1,6 +1,3 @@
-import Link from "next/link";
-import Image from "next/image";
-
 interface Props {
   title?: string;
   description?: string;

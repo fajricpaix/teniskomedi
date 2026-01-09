@@ -2,6 +2,7 @@ import Banners from "@/components/Banners";
 import Activity from "@/components/Activity";
 import JoinUs from "@/components/JoinUs";
 import FollowUs from "@/components/FollowUs";
+import Events from "@/components/Events";
 
 export default function Home() {
   return (
@@ -43,13 +44,18 @@ export default function Home() {
           </section>
 
           {/* Join Us */}
-          <section className="px-4 sm:px-6 lg:px-8 -translate-y-12 mb-12">
+          <section className="px-4 sm:px-6 lg:px-8 -translate-y-12 mb-8">
             <JoinUs />
           </section>
         </div>
 
         {/* Follow Us */}
         <FollowUs />
+
+        {/* Events */}
+        <section className="lg:container lg:mx-auto px-4 sm:px-6 lg:px-8 my-12">
+          <Events />
+        </section>
       </main>
     </>
   );

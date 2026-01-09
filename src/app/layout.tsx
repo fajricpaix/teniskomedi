@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Tenis Komedi Serpong Lagoon",
+  title: "Tenis Komedi Serpong Lagoon - Official Website",
   description: "Menang itu Bonus, Keringetan itu Harus, Foto estetik itu Kudus",
 };
 
