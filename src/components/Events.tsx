@@ -26,6 +26,15 @@ export default function Events() {
 
       {/* Events List */}
       <EventLists 
+        date="6am"
+        month="Rabu & Kamis"
+        imageSrc="/images/join.jpg"
+        eventTitle="MaBar Tenis Komedi"
+        location="Sports Club Serpong Lagoon"
+        details="Kalau kosong dan ada waktu, kita main bareng yuk! Keringat pagi lebih menggairahkan daripada tidur pagi."
+      />
+
+      <EventLists 
         date="10-18"
         month="Januari"
         imageSrc="/images/lagoonopen.jpg"
@@ -34,14 +43,6 @@ export default function Events() {
         details="All Level, No CLub, No Blok, No Cluster Just Warga Serpong Lagoon" 
       />
 
-      <EventLists 
-        date="6am"
-        month="Rabu & Kamis"
-        imageSrc="/images/join.jpg"
-        eventTitle="MaBar Tenis Komedi"
-        location="Sports Club Serpong Lagoon"
-        details="Kalau kosong dan ada waktu, kita main bareng yuk! Keringat pagi lebih menggairahkan daripada tidur pagi."
-      />
     </div>
   );
 };
