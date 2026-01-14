@@ -113,7 +113,7 @@ const PlayerSlider = ({ images, interval = 3000 }: Props) => {
             return (
               <div
                 key={index}
-                className={`shrink-0 w-full lg:w-1/3 px-2 lg:px-0 transition-all duration-700 
+                className={`shrink-0 w-full lg:w-1/3 transition-all duration-700 
                   ${isActive ? "scale-100 opacity-100" : "scale-75 opacity-60"}`}
               >
                 <Image
@@ -136,8 +136,8 @@ const PlayerSlider = ({ images, interval = 3000 }: Props) => {
           <button
             key={i}
             onClick={() => goTo(i)}
-            className={`h-2 w-2 rounded-full transition-all ${
-              current === i + 1 ? "bg-primary w-6" : "bg-white/80"
+            className={`h-1 w-1 rounded-full transition-all ${
+              current === i + 1 ? "bg-primary w-3" : "bg-white/80"
             }`}
           />
         ))}
