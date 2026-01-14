@@ -52,7 +52,7 @@ export default function Home() {
 
         <section className="lg:container lg:mx-auto px-4 lg:px-8 mb-16 lg:my-12">
           <p className="text-2xl lg:text-3xl text-center font-semibold text-primary tracking-wider uppercase mb-5">
-            Player Tenis Komedi
+            Tenis Komedi Squad
           </p>
           
           <PlayerCard />
