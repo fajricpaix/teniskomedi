@@ -14,7 +14,7 @@ export default function JoinUs () {
             height={500} />
           
           {/* Bottom Banner */}
-          <div className="p-6 bg-[#CEFF05] lg:absolute lg:bottom-8 lg:left-8 lg:-right-8">
+          <div className="p-6 bg-primary lg:absolute lg:bottom-8 lg:left-8 lg:-right-8">
             <h3 className="text-lg lg:text-2xl font-bold leading-tight">
               Alcaraz, Sinner &amp; Sabalenka<br />
               BUKAN TANDINGAN KITA!

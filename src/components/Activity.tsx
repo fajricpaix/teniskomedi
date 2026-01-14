@@ -6,7 +6,7 @@ interface Props {
 
 export default function Activity({title, description, icon}: Props) {
   return (
-    <article className="w-full bg-[#CEFF05] text-black p-6 lg:p-8 shadow-sm hover:shadow-lg transition-shadow">
+    <article className="w-full bg-primary text-black p-6 lg:p-8 shadow-sm hover:shadow-lg transition-shadow">
       <div className="mb-4">
         {icon}
       </div>

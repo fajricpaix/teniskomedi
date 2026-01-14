@@ -3,6 +3,7 @@ import Activity from "@/components/Activity";
 import JoinUs from "@/components/JoinUs";
 import FollowUs from "@/components/FollowUs";
 import Events from "@/components/Events";
+import PlayerCard from "@/components/players/PlayerCard";
 
 export default function Home() {
   return (
@@ -12,7 +13,7 @@ export default function Home() {
 
         <div className="lg:container lg:mx-auto">
           {/* Kebiasaan Tenis Komedi */}
-          <section className="px-4 sm:px-6 lg:px-8 -translate-y-24">
+          <section className="px-4 lg:px-8 -translate-y-24">
             <div className="mt-8 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               <Activity 
                 icon={
@@ -44,16 +45,24 @@ export default function Home() {
           </section>
 
           {/* Join Us */}
-          <section className="px-4 sm:px-6 lg:px-8 -translate-y-12 mb-8">
+          <section className="px-4 lg:px-8 -translate-y-12 mb-8">
             <JoinUs />
           </section>
         </div>
+
+        <section className="lg:container lg:mx-auto px-4 lg:px-8 mb-16 lg:my-12">
+          <p className="text-2xl lg:text-3xl text-center font-semibold text-primary tracking-wider uppercase mb-5">
+            Player Tenis Komedi
+          </p>
+          
+          <PlayerCard />
+        </section>
 
         {/* Follow Us */}
         <FollowUs />
 
         {/* Events */}
-        <section className="lg:container lg:mx-auto px-4 sm:px-6 lg:px-8 my-12">
+        <section className="lg:container lg:mx-auto px-4 lg:px-8 my-12">
           <Events />
         </section>
       </main>

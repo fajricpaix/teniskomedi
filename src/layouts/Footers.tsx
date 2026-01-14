@@ -4,7 +4,7 @@ export default function Footers() {
   const year = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#CEFF05]">
+    <footer className="bg-primary">
       <div className="max-w-7xl mx-auto px-6 md:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* About */}
